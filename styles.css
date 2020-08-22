@@ -1,0 +1,14 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 4.5rem;
+}
+
+.jumbotron {
+  margin: 0 2rem 2rem;
+  background: #b97f05;
+}
+
+.dib-post img.dib-post-featured-image {
+  max-height: 14rem;
+  object-fit: cover;
+}
