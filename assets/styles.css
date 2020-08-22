@@ -9,7 +9,7 @@ html > body {
 
 .jumbotron {
   margin: 0 2rem 2rem;
-  background: url('./assets/jumbotron-image.jpg') #989898;
+  background: url('/assets/jumbotron-image.jpg') #989898;
   background-position: 50% 80%;
   background-blend-mode: multiply;
 }
