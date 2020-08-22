@@ -1,5 +1,5 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
-body {
+html > body {
   padding-top: 5.5rem;
 }
 
@@ -21,6 +21,10 @@ body {
 .dib-post img.dib-post-featured-image {
   max-height: 14rem;
   object-fit: cover;
+}
+
+ul.dib-cat-menu li a {
+  color: #03564b;
 }
 
 .btn-secondary,
