@@ -1,14 +1,34 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  padding-top: 4.5rem;
+  padding-top: 7.5rem;
+}
+
+.navbar {
+  background: #03564b;
 }
 
 .jumbotron {
   margin: 0 2rem 2rem;
-  background: #b97f05;
+  background: url('./assets/jumbotron-image.jpg') #989898;
+  background-position: 50% 80%;
+  background-blend-mode: multiply;
+}
+
+.jumbotron .container {
+  text-shadow: 0 0 10px #000;
 }
 
 .dib-post img.dib-post-featured-image {
   max-height: 14rem;
   object-fit: cover;
+}
+
+.btn-secondary,
+.btn-secondary:not(:disabled):not(.disabled):active {
+  background: #03564b;
+  border-color: #03564b;
+}
+
+.btn-secondary:hover {
+  background: #023e36;
 }
