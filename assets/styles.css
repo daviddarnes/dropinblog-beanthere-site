@@ -9,7 +9,7 @@ html > body {
 
 .jumbotron {
   margin: 0 2rem 2rem;
-  background: url('/assets/jumbotron-image.jpg') #989898;
+  background: url("/assets/jumbotron-image.jpg") #989898;
   background-position: 50% 80%;
   background-blend-mode: multiply;
 }
@@ -35,4 +35,42 @@ ul.dib-cat-menu li a {
 
 .btn-secondary:hover {
   background: #023e36;
+}
+
+.list-post {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.single-post {
+  max-width: 70ch;
+  line-height: 1.6;
+}
+
+.single-post img,
+.card-post img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-post img {
+  max-height: 18em;
+  object-fit: cover;
+  width: 100%;
+}
+
+.single-post aside,
+.single-post footer,
+.card-post aside {
+  opacity: 0.75;
+  padding: 1em 0 0;
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  grid-column-gap: 1em;
+}
+
+.card-post aside {
+  display: block;
+  font-size: 0.75em;
 }
