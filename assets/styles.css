@@ -40,7 +40,7 @@ ul.dib-cat-menu li a {
 .list-post {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 2em;
 }
 
 .single-post {
